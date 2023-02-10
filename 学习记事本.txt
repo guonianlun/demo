@@ -1,0 +1,10 @@
+学习日记
+2022-09-20
+
+数据库问题 mysql
+pom整合mysql 依赖版本过高，增加时区
+my.ini 中增加 default-time-zone=’+08:00’
+重启mysql 
+登录mysql
+执行 show variables like ‘%time_zone%’;  
+
